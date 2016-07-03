@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi.HelpPage.Swashbuckle</name>
+    </assembly>
+    <members>
+        <member name="T:WebApi.HelpPage.Swashbuckle.Controllers.StocksController">
+            <summary>
+            股票数据接口
+            </summary>
+        </member>
+        <member name="M:WebApi.HelpPage.Swashbuckle.Controllers.StocksController.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:WebApi.HelpPage.Swashbuckle.Controllers.StocksController.List">
+            <summary>
+            获取股票列表
+            </summary>
+            <returns>股票列表</returns>
+        </member>
+        <member name="M:WebApi.HelpPage.Swashbuckle.Controllers.StocksController.Get(System.String)">
+            <summary>
+            获取指定股票
+            </summary>
+            <param name="symbol">股票代码</param>
+            <returns>指定股票</returns>
+        </member>
+        <member name="M:WebApi.HelpPage.Swashbuckle.Controllers.StocksController.Create(WebApi.HelpPage.Swashbuckle.Models.Stock)">
+            <summary>
+            添加一支股票
+            </summary>
+            <param name="stock">股票信息</param>
+        </member>
+        <member name="M:WebApi.HelpPage.Swashbuckle.Controllers.StocksController.Update(WebApi.HelpPage.Swashbuckle.Models.Stock)">
+            <summary>
+            更新一支股票
+            </summary>
+            <param name="stock">股票信息</param>
+        </member>
+        <member name="M:WebApi.HelpPage.Swashbuckle.Controllers.StocksController.PartialUpdate(System.String,WebApi.HelpPage.Swashbuckle.Models.PartialForm)">
+            <summary>
+            部分更新一支股票
+            </summary>
+            <param name="symbol">股票代码</param>
+            <param name="form">需要更新的股票信息</param>
+        </member>
+        <member name="M:WebApi.HelpPage.Swashbuckle.Controllers.StocksController.Delete(System.String)">
+            <summary>
+            删除一支股票
+            </summary>
+            <param name="symbol">股票代码</param>
+            <returns>是否删除成功</returns>
+        </member>
+        <member name="M:WebApi.HelpPage.Swashbuckle.Controllers.StocksController.NotShow">
+            <summary>
+            这个方法不会显示到帮助页面
+            </summary>
+        </member>
+        <member name="T:WebApi.HelpPage.Swashbuckle.Models.PartialForm">
+            <summary>
+            股票部分信息更新表单
+            </summary>
+        </member>
+        <member name="P:WebApi.HelpPage.Swashbuckle.Models.PartialForm.Name">
+            <summary>
+            股票名称
+            </summary>
+        </member>
+        <member name="T:WebApi.HelpPage.Swashbuckle.Models.Stock">
+            <summary>
+            股票信息
+            </summary>
+        </member>
+        <member name="P:WebApi.HelpPage.Swashbuckle.Models.Stock.Symbol">
+            <summary>
+            股票代码
+            </summary>
+        </member>
+        <member name="P:WebApi.HelpPage.Swashbuckle.Models.Stock.Name">
+            <summary>
+            股票名称
+            </summary>
+        </member>
+        <member name="P:WebApi.HelpPage.Swashbuckle.Models.Stock.Exchange">
+            <summary>
+            交易所
+            </summary>
+        </member>
+    </members>
+</doc>
